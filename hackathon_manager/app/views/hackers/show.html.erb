@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @hacker.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @hacker.last_name %>
+</p>
+
+<p>
+  <strong>University:</strong>
+  <%= @hacker.university %>
+</p>
+
+<p>
+  <strong>Hours of sleep:</strong>
+  <%= @hacker.hours_of_sleep %>
+</p>
+
+<%= link_to 'Edit', edit_hacker_path(@hacker) %> |
+<%= link_to 'Back', hackers_path %>
